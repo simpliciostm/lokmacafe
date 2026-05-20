@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Cormorant Garamond", serif;
+  --font-sans: "Manrope", sans-serif;
+  --offwhite: #fbf8f2;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--offwhite);
+  color: #223026;
+  font-family: var(--font-sans);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+}
+
+::selection {
+  background: #c8ab70;
+  color: #192119;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #7d5c3f #f6f2ea;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #f6f2ea;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #7d5c3f;
+  border-radius: 999px;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
