@@ -5,12 +5,14 @@ import { features } from "@/lib/content";
 
 export function Differentials() {
   return (
-    <section id="diferenciais" className="bg-olive-950 py-20 sm:py-28">
-      <Container>
+    <section id="diferenciais" className="relative overflow-hidden bg-olive-950 py-20 sm:py-28">
+      <div className="pointer-events-none absolute inset-0 bg-arabesque-dark opacity-20" />
+      <Container className="relative z-10">
         <SectionHeading
           label="Diferenciais"
-          title="Curadoria premium para uma experiencia que vai alem do prato."
-          description="Tecnica, autenticidade e hospitalidade sofisticada em cada detalhe da jornada."
+          title="Curadoria premium inspirada na cultura de mesa e hospitalidade do levante."
+          description="Aromas, tecnica e recepcao calorosa em uma leitura contemporanea e sofisticada."
+          tone="dark"
         />
 
         <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">

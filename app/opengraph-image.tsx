@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Atelier Cafe - Experiencia Gastronomica Premium";
+export const alt = "Noura Atelier - Experiencia Arabe Contemporanea Premium";
 export const size = {
   width: 1200,
   height: 630
@@ -25,14 +25,14 @@ export default function OpenGraphImage() {
         }}
       >
         <p style={{ fontSize: 28, letterSpacing: "0.32em", textTransform: "uppercase", color: "#d7bf8d" }}>
-          Atelier Cafe
+          Noura Atelier
         </p>
         <div style={{ display: "flex", flexDirection: "column", gap: 20, maxWidth: 900 }}>
           <h1 style={{ fontSize: 76, lineHeight: 1.05, margin: 0 }}>
-            Experiencia gastronomica contemporanea com alma premium.
+            Experiencia arabe contemporanea com alma premium.
           </h1>
           <p style={{ fontSize: 32, lineHeight: 1.3, color: "rgba(246,242,234,0.82)", margin: 0 }}>
-            Cafes especiais, brunch autoral e atmosfera sofisticada em cada detalhe.
+            Cafe de origem, especiarias elegantes e hospitalidade em cada detalhe.
           </p>
         </div>
       </div>

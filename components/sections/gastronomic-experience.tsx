@@ -6,12 +6,13 @@ import { gastronomicHighlights } from "@/lib/content";
 
 export function GastronomicExperience() {
   return (
-    <section id="experiencia" className="bg-sand-50 py-20 sm:py-28">
-      <Container className="space-y-14 sm:space-y-20">
+    <section id="experiencia" className="relative overflow-hidden bg-sand-50 py-20 sm:py-28">
+      <div className="pointer-events-none absolute inset-0 bg-arabesque-soft opacity-35" />
+      <Container className="relative z-10 space-y-14 sm:space-y-20">
         <SectionHeading
           label="Experiencia Gastronomica"
-          title="Cada momento e pensado como uma narrativa de sabor, textura e atmosfera."
-          description="Um encontro entre cafe de origem, culinaria artesanal e design sensorial para tornar seu tempo mais valioso."
+          title="Cada momento combina heranca arabe, tecnica moderna e atmosfera acolhedora."
+          description="Uma jornada entre cafe de origem, especiarias elegantes e pratos artesanais para transformar refeicoes em memoria."
         />
 
         <div className="space-y-12 sm:space-y-16">

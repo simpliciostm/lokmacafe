@@ -5,12 +5,13 @@ import { menuCategories } from "@/lib/content";
 
 export function MenuPreview() {
   return (
-    <section id="menu" className="bg-[#f3ecdf] py-20 sm:py-28">
-      <Container>
+    <section id="menu" className="relative overflow-hidden bg-[#f3ecdf] py-20 sm:py-28">
+      <div className="pointer-events-none absolute inset-0 bg-arabesque-soft opacity-30" />
+      <Container className="relative z-10">
         <SectionHeading
           label="Menu Premium"
-          title="Um preview do nosso cardapio contemporaneo"
-          description="Categorias criadas para harmonizar cafe, gastronomia artesanal e momentos de celebracao cotidiana."
+          title="Um preview do nosso menu arabe contemporaneo"
+          description="Categorias pensadas para harmonizar cafe especial, especiarias delicadas e cozinha autoral."
           align="center"
         />
 

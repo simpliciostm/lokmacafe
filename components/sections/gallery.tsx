@@ -10,8 +10,8 @@ export function Gallery() {
       <Container>
         <SectionHeading
           label="Galeria"
-          title="Recortes visuais de uma experiencia pensada para os sentidos."
-          description="Texturas, luz, gastronomia e encontros em uma narrativa visual premium."
+          title="Recortes visuais de uma experiencia arabe contemporanea."
+          description="Texturas naturais, luz dourada e gastronomia autoral em uma narrativa sensorial premium."
         />
 
         <div className="mt-14 grid auto-rows-[220px] grid-cols-1 gap-4 sm:grid-cols-3 sm:auto-rows-[240px]">

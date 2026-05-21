@@ -16,6 +16,7 @@ export function Hero() {
       />
       <div className="absolute inset-0 bg-gradient-to-b from-olive-950/35 via-olive-950/55 to-olive-950/90" />
       <div className="absolute inset-0 bg-grain bg-[length:9px_9px] opacity-30" />
+      <div className="absolute inset-0 bg-arabesque-dark opacity-25" />
 
       <Container className="relative z-10">
         <motion.div
@@ -24,15 +25,16 @@ export function Hero() {
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
           className="max-w-3xl"
         >
-          <p className="mb-4 text-xs uppercase tracking-luxe text-gold-300 sm:mb-6">
-            Experiencia gastronomica contemporanea
+          <p className="mb-4 inline-flex items-center gap-2 text-xs uppercase tracking-luxe text-gold-300 sm:mb-6">
+            <span className="h-px w-7 bg-gold-300/70" />
+            Cafe e restaurante arabe contemporaneo
           </p>
           <h1 className="font-display text-5xl leading-[1.05] text-sand-50 sm:text-6xl lg:text-7xl">
-            Um refugio sensorial entre cafe de origem, brunch autoral e atmosfera memoravel.
+            Tradicao, aromas e hospitalidade em uma experiencia sensorial contemporanea.
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-sand-50/80 sm:text-lg">
-            Descubra uma jornada elegante onde cada detalhe foi desenhado para quem valoriza sabor,
-            tempo e lifestyle premium.
+            Entre especiarias delicadas, graos especiais e cozinha autoral, cada detalhe foi desenhado
+            para quem valoriza tempo, sabor e atmosfera premium.
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">

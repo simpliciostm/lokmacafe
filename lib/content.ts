@@ -31,28 +31,28 @@ export const navItems: NavItem[] = [
 
 export const gastronomicHighlights = [
   {
-    eyebrow: "Brunch de assinatura",
-    title: "Ingredientes locais, tecnica refinada e tempo desacelerado.",
+    eyebrow: "Brunch levantino",
+    title: "Tradicao de mesa farta reinterpretada com tecnica contemporanea.",
     description:
-      "Nosso brunch foi desenhado para transformar manhas comuns em rituais memoraveis, com paes de fermentacao natural, ovos em coccoes precisas e combinacoes sazonais autorais.",
+      "Nosso brunch traduz a heranca arabe de partilha e hospitalidade em composicoes leves, com paes artesanais, cremes condimentados e ingredientes sazonais preparados com precisao.",
     image:
       "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1400&q=80",
     imageAlt: "Mesa de brunch artesanal com paes e frutas"
   },
   {
-    eyebrow: "Cafe de origem",
-    title: "Extraimos cada xicara com curadoria sensorial de alto nivel.",
+    eyebrow: "Cafe e especiarias",
+    title: "Aromas de cardamomo, flor de laranjeira e graos de origem em equilibrio.",
     description:
-      "Trabalhamos com graos especiais de microprodutores e metodos de preparo que destacam notas aromaticas complexas, mantendo equilibrio entre acidez, dulcor e textura.",
+      "Trabalhamos com graos especiais e metodos de extracao precisos, harmonizando notas classicas do cafe com especiarias sutis para uma experiencia sensorial elegante.",
     image:
       "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1400&q=80",
     imageAlt: "Barista preparando cafe especial"
   },
   {
-    eyebrow: "Cozinha artesanal",
-    title: "Pratos contemporaneos que celebram simplicidade sofisticada.",
+    eyebrow: "Cozinha arabe contemporanea",
+    title: "Receitas de raiz cultural com apresentacao minimalista e refinada.",
     description:
-      "Da primeira entrada ao ultimo detalhe de finalizacao, a cozinha combina tecnicas classicas e criatividade moderna para entregar uma experiencia gastronomica exclusiva e acolhedora.",
+      "Da primeira entrada ao toque final, a cozinha honra sabores tradicionais do levante com tecnica moderna, especiarias equilibradas e texturas envolventes.",
     image:
       "https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&w=1400&q=80",
     imageAlt: "Prato autoral com finalizacao elegante"
@@ -62,68 +62,68 @@ export const gastronomicHighlights = [
 export const features: FeatureItem[] = [
   {
     icon: Coffee,
-    title: "Cafes especiais",
+    title: "Cafes e infusoes",
     description:
-      "Selecao rotativa de microlotes com torra fresca e preparo tecnico impecavel."
+      "Graos especiais e infusoes aromaticas com notas de cardamomo, canela e florais delicados."
   },
   {
     icon: Croissant,
-    title: "Brunch artesanal",
+    title: "Brunch levantino",
     description:
-      "Receitas autorais, fermentacao natural e ingredientes sazonais de alta qualidade."
+      "Receitas autorais inspiradas na tradicao arabe, com ingredientes sazonais e execucao contemporanea."
   },
   {
     icon: Sparkles,
-    title: "Ambiente sofisticado",
+    title: "Atmosfera sofisticada",
     description:
-      "Arquitetura sensorial, iluminacao acolhedora e trilha sonora curada para cada momento."
+      "Luz intimista, materiais naturais e detalhes geometricos sutis para um ambiente acolhedor."
   },
   {
     icon: Gem,
-    title: "Experiencia exclusiva",
+    title: "Hospitalidade exclusiva",
     description:
-      "Atendimento consultivo e detalhes personalizados para transformar sua visita em memoria."
+      "Atendimento atencioso e personalizado para transformar cada visita em memoria afetiva."
   }
 ];
 
 export const menuCategories: MenuCategory[] = [
   {
-    name: "Cafes especiais",
+    name: "Cafes e infusoes",
     items: [
       {
-        title: "V60 Origem Unica",
-        description: "Notas de mel, citricos e finalizacao limpa",
+        title: "Espresso com Cardamomo",
+        description: "Extracao curta com especiaria sutil e final quente",
+        price: "R$ 18"
+      },
+      {
+        title: "Latte Flor de Laranjeira",
+        description: "Leite vaporizado e perfume floral elegante",
+        price: "R$ 23"
+      },
+      {
+        title: "Cafe Filtrado da Casa",
+        description: "Torra media com notas de cacau e frutas secas",
         price: "R$ 24"
-      },
-      {
-        title: "Flat White Boutique",
-        description: "Blend cremoso com textura aveludada",
-        price: "R$ 21"
-      },
-      {
-        title: "Espresso Reserva",
-        description: "Extracao curta com perfil intenso e elegante",
-        price: "R$ 14"
       }
     ]
   },
   {
-    name: "Brunch",
+    name: "Brunch contemporaneo",
     items: [
       {
-        title: "Toast de Salmao Curado",
-        description: "Pao rustico, creme citrico e ervas frescas",
-        price: "R$ 52"
+        title: "Shakshuka Delicada",
+        description: "Ovos, tomate condimentado e pao artesanal",
+        price: "R$ 54"
       },
       {
-        title: "Ovos Trufados",
-        description: "Ovos cremosos, brioche tostado e cogumelos",
-        price: "R$ 48"
+        title: "Toast de Labneh e Zaatar",
+        description: "Pao de fermentacao natural e ervas aromaticas",
+        price: "R$ 49"
       },
       {
-        title: "Bowl Mediterraneo",
-        description: "Graos, vegetais assados e iogurte artesanal",
-        price: "R$ 44"
+        title: "Halloumi Grelhado com Mel",
+        description: "Queijo dourado, figos e sementes tostadas",
+        price: "R$ 56"
       }
     ]
   },
@@ -131,19 +131,19 @@ export const menuCategories: MenuCategory[] = [
     name: "Sobremesas",
     items: [
       {
-        title: "Entremet de Pistache",
-        description: "Camadas leves com final de flor de sal",
+        title: "Mousse de Pistache",
+        description: "Creme leve com toque de agua de rosas",
+        price: "R$ 36"
+      },
+      {
+        title: "Tarte de Tamara e Cacau",
+        description: "Doce natural com creme de iogurte suave",
         price: "R$ 34"
       },
       {
-        title: "Tarte de Cacau 70%",
-        description: "Ganache intensa e creme anglaise de baunilha",
-        price: "R$ 32"
-      },
-      {
-        title: "Cheesecake de Baunilha",
-        description: "Base amanteigada com calda de frutas vermelhas",
-        price: "R$ 30"
+        title: "Mil-folhas de Mel e Nozes",
+        description: "Camadas crocantes com especiarias delicadas",
+        price: "R$ 33"
       }
     ]
   },
@@ -151,19 +151,19 @@ export const menuCategories: MenuCategory[] = [
     name: "Pratos exclusivos",
     items: [
       {
-        title: "Ravioli de Ricota Defumada",
-        description: "Molho de manteiga noisette e amendoas tostadas",
-        price: "R$ 69"
+        title: "Cordeiro Braseado",
+        description: "Reducao de especiarias e pure de grao-de-bico",
+        price: "R$ 86"
       },
       {
-        title: "File ao Cafe",
-        description: "Reducao aromatica, pure de raiz e legumes glaceados",
-        price: "R$ 84"
+        title: "Peixe Branco ao Tahine",
+        description: "Molho de limao confit e legumes tostados",
+        price: "R$ 79"
       },
       {
-        title: "Risoto de Graos Antigos",
-        description: "Queijo curado, crocante de alho-poro e ervas",
-        price: "R$ 66"
+        title: "Ravioli de Abobora e Dukkah",
+        description: "Manteiga aromatica e crocante de especiarias",
+        price: "R$ 72"
       }
     ]
   }
