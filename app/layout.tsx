@@ -14,21 +14,23 @@ const sans = Manrope({
   weight: ["400", "500", "600", "700", "800"]
 });
 
-const siteUrl = "https://ateliercafe-premium.vercel.app";
+const siteUrl = "https://noura-atelier.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Atelier Cafe | Cafeteria e Restaurante Contemporaneo",
-    template: "%s | Atelier Cafe"
+    default: "Noura Atelier | Cafe e Restaurante Arabe Contemporaneo",
+    template: "%s | Noura Atelier"
   },
   description:
-    "Landing page premium para cafeteria e restaurante contemporaneo com foco em experiencia gastronomica sofisticada, brunch artesanal e cafes especiais.",
+    "Landing page premium para cafe e restaurante arabe contemporaneo com foco em hospitalidade, especiarias elegantes e experiencia sensorial sofisticada.",
   keywords: [
     "cafeteria premium",
-    "restaurante contemporaneo",
-    "brunch artesanal",
+    "restaurante arabe contemporaneo",
+    "brunch levantino",
     "cafe especial",
+    "hospitalidade arabe",
+    "especiarias",
     "experiencia gastronomica",
     "bauru"
   ],
@@ -36,24 +38,24 @@ export const metadata: Metadata = {
     type: "website",
     locale: "pt_BR",
     url: siteUrl,
-    title: "Atelier Cafe | Cafeteria e Restaurante Contemporaneo",
+    title: "Noura Atelier | Cafe e Restaurante Arabe Contemporaneo",
     description:
-      "Uma experiencia sensorial sofisticada entre cafes especiais, brunch autoral e ambiente exclusivo.",
-    siteName: "Atelier Cafe",
+      "Uma experiencia sensorial sofisticada entre cafe de origem, especiarias delicadas e cozinha arabe contemporanea.",
+    siteName: "Noura Atelier",
     images: [
       {
         url: "/opengraph-image",
         width: 1200,
         height: 630,
-        alt: "Atelier Cafe - Experiencia gastronomica premium"
+        alt: "Noura Atelier - Experiencia arabe contemporanea premium"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Atelier Cafe | Experiencia Gastronomica Premium",
+    title: "Noura Atelier | Experiencia Arabe Contemporanea Premium",
     description:
-      "Cafes especiais, brunch autoral e ambiente sofisticado em uma proposta contemporanea.",
+      "Cafe especial, aromas de especiarias e cozinha autoral em uma proposta arabe contemporanea.",
     images: ["/opengraph-image"]
   },
   alternates: {

@@ -7,13 +7,14 @@ import { operatingHours } from "@/lib/content";
 
 export function Location() {
   return (
-    <section id="localizacao" className="bg-[#efe5d5] py-20 sm:py-28">
-      <Container className="grid gap-10 lg:grid-cols-[1.05fr_1fr] lg:gap-16">
+    <section id="localizacao" className="relative overflow-hidden bg-[#efe5d5] py-20 sm:py-28">
+      <div className="pointer-events-none absolute inset-0 bg-arabesque-soft opacity-25" />
+      <Container className="relative z-10 grid gap-10 lg:grid-cols-[1.05fr_1fr] lg:gap-16">
         <div>
           <SectionHeading
             label="Localizacao"
-            title="No coracao da cidade, com atmosfera de destino gastronomico."
-            description="Um espaco premium pensado para quem busca conforto, sabor e atendimento impecavel em todos os horarios."
+            title="No coracao da cidade, com atmosfera de destino arabe contemporaneo."
+            description="Um espaco premium para quem busca sabores autorais, acolhimento e uma experiencia sensorial completa."
           />
 
           <FadeIn className="mt-8 space-y-6 rounded-3xl border border-olive-900/10 bg-offwhite p-6 shadow-soft">

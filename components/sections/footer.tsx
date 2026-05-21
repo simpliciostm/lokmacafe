@@ -11,8 +11,10 @@ export function Footer() {
     <footer className="bg-[#111811] py-10 text-sand-50/75">
       <Container className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
         <div>
-          <p className="font-display text-2xl text-sand-50">Atelier Cafe</p>
-          <p className="mt-2 text-sm text-sand-50/65">Cafeteria e restaurante contemporaneo premium.</p>
+          <p className="font-display text-2xl text-sand-50">Noura Atelier</p>
+          <p className="mt-2 text-sm text-sand-50/65">
+            Cafe e restaurante arabe contemporaneo com assinatura premium.
+          </p>
         </div>
 
         <div>
@@ -41,7 +43,7 @@ export function Footer() {
       </Container>
 
       <Container className="mt-10 border-t border-sand-50/10 pt-5 text-xs text-sand-50/45">
-        <p>(c) {new Date().getFullYear()} Atelier Cafe. Todos os direitos reservados.</p>
+        <p>(c) {new Date().getFullYear()} Noura Atelier. Todos os direitos reservados.</p>
       </Container>
     </footer>
   );

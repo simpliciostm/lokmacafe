@@ -1,4 +1,4 @@
-# Atelier Cafe - Premium Landing Page
+# Noura Atelier - Premium Landing Page
 
 Landing page premium para cafeteria/restaurante contemporaneo, criada do zero com foco em sofisticacao, lifestyle e experiencia gastronomica.
 

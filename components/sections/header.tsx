@@ -38,7 +38,7 @@ export function Header() {
     >
       <Container className="flex items-center justify-between">
         <Link href="#home" className="font-display text-2xl tracking-wide text-sand-50">
-          Atelier Cafe
+          Noura Atelier
         </Link>
 
         <nav className="hidden items-center gap-8 lg:flex">
